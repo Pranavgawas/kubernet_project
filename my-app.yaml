@@ -5,6 +5,6 @@ metadata:
 spec:
   containers:
   - name: vehicleconfigurator-v1
-    image: pranavgawas/vehicleconfiguratorjavadocker_backend:1.0.0
+    image: pranavgawas/projectfrontend-v1:1.0.0
     ports:
-    - containerPort: 8080
+    - containerPort: 3000
