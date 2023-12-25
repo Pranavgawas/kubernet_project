@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: vehicleconfigurator-v1
+spec:
+  containers:
+  - name: vehicleconfigurator-v1
+    image: pranavgawas/vehicleconfiguratorjavadocker_backend:1.0.0
+    ports:
+    - containerPort: 8080
